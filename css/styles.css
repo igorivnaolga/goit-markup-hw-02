@@ -22,7 +22,6 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
@@ -71,14 +70,17 @@ body {
   font-style: normal;
 }
 
-.contacts-item {
+.contacts-mail,
+.contacts-tel {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-item-link:hover,
-.contacts-item-link:focus {
+.contacts-mail-link:hover,
+.contacts-mail-link:focus,
+.contacts-tel-link:hover,
+.contacts-tel-link:focus {
   color: var(--pressed-color);
 }
 /* HERO */
@@ -87,7 +89,6 @@ body {
 }
 .hero-header {
   color: var(--background-color);
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -127,11 +128,9 @@ Team */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
   letter-spacing: 0.04em;
   color: var(--brand-color);
   background-color: var(--light-color);
-  border: 1px solid #e7e9fc;
 }
 .btn:hover,
 .btn:focus {
