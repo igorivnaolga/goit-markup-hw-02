@@ -22,6 +22,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-color);
@@ -70,17 +71,14 @@ body {
   font-style: normal;
 }
 
-.contacts-mail,
-.contacts-tel {
+.contacts-item {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail-link:hover,
-.contacts-mail-link:focus,
-.contacts-tel-link:hover,
-.contacts-tel-link:focus {
+.contacts-item-link:hover,
+.contacts-item-link:focus {
   color: var(--pressed-color);
 }
 /* HERO */
@@ -97,7 +95,6 @@ body {
 .hero-btn {
   font-family: 'Roboto', sans-serif;
   cursor: pointer;
-  padding: 16px 32px;
   background-color: var(--brand-color);
   font-weight: 500;
   font-size: 16px;
